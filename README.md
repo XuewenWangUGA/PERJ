@@ -7,7 +7,7 @@ Tool function: join two illumina paired-end reads from two files , with 5 end tr
 ## Usage for command terminal:
 perl PERJ.pl [Options]
 
-## Options:
+Options:
 -l File:  Left reads file in fastq format
 
 -r File:  Right reads file in fastq format
@@ -22,5 +22,10 @@ perl PERJ.pl [Options]
 
 ## Example: 
 perl PERJ.pl -l TTGGATGG_1_50.fq -r TTGGATGG_2_50.fq -trimleft 1 -trimright 2 -format 1 -n 0 -o testOUT.txt
+
+## Usage for graph interface
+
+double click the PERJ.jar to initiate the graphic version, then select the read files and run
+
 
 ## Manual: Please see the pdf file
