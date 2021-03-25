@@ -1,5 +1,5 @@
 # PERJ
-# Paired-End Reads Joining (PERJ)
+# Pair-End Reads Joining (PERJ) for joining paired-end reads into one fragment
 Tool function: join two illumina paired-end reads from two files , with 5 end triming options, output in fasta (1) or fastq (2), filling in Ns between left and right reads, trim low quality reads
 
 #input data are the name of two fastq files and options
