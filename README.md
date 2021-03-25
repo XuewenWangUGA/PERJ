@@ -38,10 +38,6 @@ Then you will see the following interface of PERJ
 ## Manual: 
 Please see PERJ_manual_en_V11.pdf
 
-# publication
-Peng Qi, Davis Gimode, Dipnarayan Saha, Stephan Schröder, Debkanta
-Chakraborty, Xuewen Wang, Mathews M Dida, Russell L Malmberg, Katrien M
-Devos, (2018), UGbS-Flex, a novel bioinformatics pipeline for imputation-free
-SNP discovery in polyploids without a reference genome: finger millet as a case
-study, BMC Plant Biology, 18:117, doi: 10.1186/s12870-018-1316-3, [full text](https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-018-1316-3)
+# Publication
+Peng Qi, Davis Gimode, Dipnarayan Saha, Stephan Schröder, Debkanta Chakraborty, Xuewen Wang, Mathews M Dida, Russell L Malmberg, Katrien M Devos, (2018), UGbS-Flex, a novel bioinformatics pipeline for imputation-free SNP discovery in polyploids without a reference genome: finger millet as a case study, BMC Plant Biology, 18:117, doi: 10.1186/s12870-018-1316-3, [full text](https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-018-1316-3)
 
