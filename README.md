@@ -35,4 +35,5 @@ to use , user can use one of floowing way:
 Then you will see the following interface of PERJ
 ![What is this](PERJ_graphic.png)
 
-## Manual: Please see the pdf file
+## Manual: 
+Please see PERJ_manual_en_V11.pdf
