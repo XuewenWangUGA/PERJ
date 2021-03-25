@@ -20,7 +20,7 @@ perl PERJ.pl [Options]
 
 -n integer: insert how many of bp of nucleotides into the gap between left and right reads, default: 0, for standard Illumina reads value 200 is recommended
 
-## example: 
+## Example: 
 perl PERJ.pl -l TTGGATGG_1_50.fq -r TTGGATGG_2_50.fq -trimleft 1 -trimright 2 -format 1 -n 0 -o testOUT.txt
 
 ## Manual: Please see the pdf file
