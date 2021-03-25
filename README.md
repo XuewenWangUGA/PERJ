@@ -4,6 +4,9 @@ Tool function: join two illumina paired-end reads from two files , with 5 end tr
 
 #input data are the name of two fastq files and options
 
+# How to use this tool
+The PERJ can be run in command line or graphic interface. Either is working.
+
 ## Usage for command terminal:
 perl PERJ.pl [Options]
 
