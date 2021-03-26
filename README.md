@@ -11,6 +11,7 @@ The PERJ can be run in command line or graphic interface. Either is working.
 perl PERJ.pl [Options]
 
 Options:
+
 -l File:  Left reads file in fastq format
 
 -r File:  Right reads file in fastq format
