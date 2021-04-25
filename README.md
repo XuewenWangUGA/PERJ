@@ -31,10 +31,10 @@ A testing data comes with PERJ and run the following command in the terminal
 `perl PERJ.pl -l TTGGATGG_1_50.fq -r TTGGATGG_2_50.fq -trimleft 1 -trimright 2 -format 1 -n 0 -o testOUT.txt`
 
 ## Usage for graph interface
-to use , user can use one of floowing way:
+To use , user can use one of floowing way:
 
 1. `java -jar PERJ.jar`
-2. double click the PERJ.jar to initiate the graphic version, then select the read files and run
+2. Double click the PERJ.jar to initiate the graphic version, then select the read files and run
 Then you will see the following interface of PERJ
 ![What is this](PERJ_graphic.png)
 
