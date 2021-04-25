@@ -1,6 +1,8 @@
 # PERJ
 # Pair-End Reads Joining (PERJ) for joining paired-end reads into one fragment
-Tool function: join two illumina paired-end reads from two files , with 5 end triming options, output in fasta (1) or fastq (2), filling in Ns between left and right reads, trim low quality reads
+Function:
+
+Join two illumina paired-end reads from two files, with options of 5 end triming options, outputing in fasta (1) or fastq (2), filling in Ns between left and right reads, trim low quality reads. The output will be a file containing the joint peseudo reads.
 
 #input data are the name of two fastq files and options
 
@@ -12,17 +14,17 @@ perl PERJ.pl [Options]
 
 Options:
 
--l File:  Left reads file in fastq format
+     -l File:  Left reads file in fastq format
 
--r File:  Right reads file in fastq format
+     -r File:  Right reads file in fastq format
 
--format integer: 1 for output sequence in fasta or 2 for output sequence in fastq
+     -format integer: 1 for output sequence in fasta or 2 for output sequence in fastq
 
--trimleft integer:  trim off how many of bp of nucleotides for the left read, default: 0
+     -trimleft integer:  trim off how many of bp of nucleotides for the left read, default: 0
 
--trimright integer:  trim off how many of bp of nucleotides for the  right read, default: 0
+     -trimright integer:  trim off how many of bp of nucleotides for the  right read, default: 0
 
--n integer: insert how many of bp of nucleotides into the gap between left and right reads, default: 0, for standard Illumina reads value 200 is recommended
+     -n integer: the number of bp of nucleotide N inserted into the gap between left and right reads, default: 0, for standard Illumina reads value 200 is recommended
 
 ## Example: 
 A testing data comes with PERJ and run the following command in the terminal
@@ -39,6 +41,6 @@ Then you will see the following interface of PERJ
 ## Manual: 
 Please see PERJ_manual_en_V11.pdf
 
-## Publication and citing this tool
+## Citing this tool
 Peng Qi, Davis Gimode, Dipnarayan Saha, Stephan Schröder, Debkanta Chakraborty, Xuewen Wang, Mathews M Dida, Russell L Malmberg, Katrien M Devos, (2018), UGbS-Flex, a novel bioinformatics pipeline for imputation-free SNP discovery in polyploids without a reference genome: finger millet as a case study, BMC Plant Biology, 18:117, doi: 10.1186/s12870-018-1316-3, [full text](https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-018-1316-3)
 
